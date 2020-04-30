@@ -1,0 +1,54 @@
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+#nav {
+    display: block;
+    background-color: white;
+    display: inline-block;
+    width: 98vw;
+    border: 3px solid gray;
+    border-radius: 5px;
+    margin: 6px;
+}
+
+body {
+    background-color: gray;
+}
+
+#quizBody {
+    text-align: center;
+    padding: 12vh;
+}
+
+h4 {
+    padding: 10px 8px 10px 8px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    border: none;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    font-size: 17px;
+    margin: 4px;
+}
+
+button:hover {
+    transition-duration: 0.4s;
+    background-color: blue;
+}
+
+#quiz {
+    text-align: center;
+}
